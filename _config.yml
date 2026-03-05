@@ -1,0 +1,4 @@
+title: humidity-sensor
+description: Kosteusanturiin perustuva korvausilman ohjaus ESP32:lla ja Home Assistantilla.
+theme: minima
+lang: fi
