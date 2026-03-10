@@ -55,3 +55,10 @@ Home Assistantin MQTT-broker (Mosquitto) vastaanottaa ESP32:n viestit. Node-RED-
 
 ### 3) Toimilaitteen ohjaus (Shelly Plug S)
 Node-RED ohjaa **Shelly Plug S** -laitetta päälle/pois, ja Shelly kytkee korvausilmalaitteen virran. Mittausarvot ja laitteen tila näkyvät Home Assistantin dashboardissa.
+
+## Jatkokehitys
+
+- **Hälytys pitkästä käyntiajasta:** ilmoitus Home Assistantissa, jos korvausilmalaite on ollut päällä esimerkiksi yli 1 tunnin yhtäjaksoisesti.
+- **Datan päivitysvalvonta:** hälytys, jos MQTT-mittausdata ei päivity odotetulla tiheydellä (esim. jos viestejä ei tule minuuttiin). Tällä huomaa nopeasti, jos mittausketju (anturi/ESP32/MQTT) on katkennut.
+- **Ulkolämpötilaehto:** ohjaus käyttöön vain pakkasjaksoilla (tai eri kynnysarvot eri vuodenaikoina).
+- **Huippuimurin ohjaus:** sama logiikka voisi ohjata myös huippuimuria, mutta tämä edellyttää asennusoikeuksia/ammattiasennusta, joten ei ole toistaiseksi ajankohtainen.
