@@ -17,3 +17,14 @@ Automaatio toimii käytännössä halutulla tavalla:
 - turva-ajastin rajoittaa laitteen maksimikäyntiaikaa
 
 ### Home Assistant -näkymä: mittaukset ja laitteen tila
+<p align="center">
+  <img src="HA-dashboard.png" alt="Home Assistant -dashboard" style="width:70%; max-width:700px; height:auto;">
+  <br>
+  <em>Home Assistant -dashboard: pukuhuoneen kosteus/lämpötila/paine sekä korvausilmalaitteen tila.</em>
+</p>
+
+<p align="center">
+  <img src="shelly-s.png" alt="Shelly Plug S ohjaus" style="width:55%; max-width:420px; height:auto;">
+  <br>
+  <em>Shelly Plug S toimii toimilaitteena ja kytkee korvausilmalaitteen päälle/pois automaation ohjaamana.</em>
+</p>
