@@ -44,9 +44,9 @@ Automaatio toimii käytännössä halutulla tavalla:
 ESP32 mittaa pukuhuoneen kosteuden (sekä lämpötilan/paineen) BME280-anturilla ja julkaisee arvot **samassa MQTT-topicissa JSON-muodossa** minuutin välein.
 
 <p align="center">
-  <img src="anturi.png"
+  <img src="sensori.png"
        alt="BME280-anturi"
-       style="width:70%; max-width:560px; height:auto;">
+       style="width:60%; max-width:530px; height:auto;">
   <br>
   <em>BME280-anturi</em>
 </p>
