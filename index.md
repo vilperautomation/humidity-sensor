@@ -19,7 +19,7 @@ Automaatio toimii käytännössä halutulla tavalla:
 <p align="center">
   <img src="HA-dashboard.png"
        alt="Home Assistant -dashboard"
-       style="width:70%; max-width:600px; height:auto;">
+       style="width:70%; max-width:560px; height:auto;">
   <br>
   <em>Home Assistant -dashboard: pukuhuoneen kosteus/lämpötila/paine sekä korvausilmalaitteen tila.</em>
 </p>
