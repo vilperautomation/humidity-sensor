@@ -1,6 +1,6 @@
 # Korvausilmalaitteen ohjaus kosteusanturin avulla
 
-Talvipakkasilla korvausilmalaite tuo sisään kylmää ilmaa ja lisää energiankulutusta. Halusin ohjata laitetta niin, että se käy vain tarpeen mukaan, eli kun pukuhuoneen kosteus nousee suihkun aikana. Samalla halusin toteuttaa mikrokontrolleri- ja sensoriprojektin, jossa mittausdata ohjaa laitetta ja toiminta on helposti seurattavissa Home Assistantissa.
+Talvipakkasilla korvausilmalaite tuo sisään kylmää ilmaa ja lisää energiankulutusta. Halusin ohjata laitetta niin, että se käy vain tarpeen mukaan, eli kun pukuhuoneen kosteus nousee suihkun aikana. Samalla tämä antoi mahdollisuuden toteuttaa mikrokontrolleri- ja sensoriprojektin, jossa mittausdata ohjaa laitetta ja toiminta on helposti seurattavissa Home Assistantissa.
 
 ## Käytetyt teknologiat ja niiden roolit
 - **ESP32:** mikrokontrolleri, joka lukee anturin mittausarvot ja lähettää ne eteenpäin järjestelmään automaation käytettäväksi.
@@ -14,6 +14,7 @@ Talvipakkasilla korvausilmalaite tuo sisään kylmää ilmaa ja lisää energian
 Automaatio toimii käytännössä halutulla tavalla:
 - kun pukuhuoneen kosteus nousee (esim. suihkun aikana), korvausilmalaite kytkeytyy päälle
 - kun kosteus laskee takaisin, laite sammuu (hystereesi estää sahaamisen)
+- Home Assistant -dashboardilta voi seurata pukuhuoneen kosteutta, lämpötilaa ja painetta sekä laitteen tilaa
 
 <p align="center">
   <img src="HA-dashboard.png"
