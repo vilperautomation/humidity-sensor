@@ -16,11 +16,10 @@ Automaatio toimii käytännössä halutulla tavalla:
 - kun kosteus laskee takaisin, laite sammuu (hystereesi estää sahaamisen)
 - turva-ajastin rajoittaa laitteen maksimikäyntiaikaa
 
-### Home Assistant -näkymä: mittaukset ja laitteen tila
 <p align="center">
   <img src="HA-dashboard.png"
        alt="Home Assistant -dashboard"
-       style="width:80%; max-width:780px; height:auto;">
+       style="width:70%; max-width:600px; height:auto;">
   <br>
   <em>Home Assistant -dashboard: pukuhuoneen kosteus/lämpötila/paine sekä korvausilmalaitteen tila.</em>
 </p>
