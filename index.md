@@ -7,7 +7,7 @@ Talvipakkasilla korvausilmalaite tuo sisään kylmää ilmaa ja lisää energian
 - **BME280:** kosteusanturi (sekä lämpötila/paine), jonka mittausten perusteella päätellään milloin pukuhuoneessa on “suihkukosteutta” ja korvausilmalle on tarvetta.
 - **MQTT:** viestinvälitysprotokolla, jolla ESP32 lähettää mittausdatan (esim. JSON) keskitetysti Home Assistant -ympäristöön.
 - **Home Assistant (HA):** avoimen lähdekoodin kotiautomaatioalusta, johon kosteusanturin mittausdata tuotiin. Lisäksi HA:ssa toteutettiin automaatio, joka ohjaa **Shelly Plug S** -laitetta (korvausilmalaite päälle/pois kosteuden perusteella).
-- **Shelly Plug S:** ohjattava pistorasia/toimilaite, jolla korvausilmalaite kytketään päälle tai pois Home Assistantista tulevan ohjauksen perusteella.
+- **Shelly Plug S:** ohjattava pistorasia/toimilaite, jolla korvausilmalaite kytketään päälle tai pois Home Assistantista tulevan ohjauksen perusteella. Shelly Plug S mahdollistaa myös siihen kytketyn laitteen tehonkulutuksen mittaamisen, mutta tässä projektissa mittausta ei hyödynnetty.
 
 ## Tulokset
 
