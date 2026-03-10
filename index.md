@@ -14,7 +14,6 @@ Talvipakkasilla korvausilmalaite tuo sisään kylmää ilmaa ja lisää energian
 Automaatio toimii käytännössä halutulla tavalla:
 - kun pukuhuoneen kosteus nousee (esim. suihkun aikana), korvausilmalaite kytkeytyy päälle
 - kun kosteus laskee takaisin, laite sammuu (hystereesi estää sahaamisen)
-- turva-ajastin rajoittaa laitteen maksimikäyntiaikaa
 
 <p align="center">
   <img src="HA-dashboard.png"
