@@ -27,12 +27,14 @@ Automaatio toimii käytännössä halutulla tavalla:
 
 <div style="display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap:16px; align-items:start;">
   <figure style="margin:0; text-align:center;">
-    <img src="shelly-s.png" alt="Shelly Plug S" style="width:100%; height:auto; max-width:360px;">
+    <img src="shelly-s.png" alt="Shelly Plug S"
+         style="width:380px; height:320px; object-fit:cover;">
     <figcaption><em>Shelly Plug S toimii toimilaitteena (päälle/pois).</em></figcaption>
   </figure>
 
   <figure style="margin:0; text-align:center;">
-    <img src="korvausilma.png" alt="Korvausilmalaite" style="width:100%; height:auto; max-width:360px;">
+    <img src="korvausilma.png" alt="Korvausilmalaite"
+         style="width:380px; height:320px; object-fit:cover;">
     <figcaption><em>Ohjattava korvausilmalaite.</em></figcaption>
   </figure>
 </div>
