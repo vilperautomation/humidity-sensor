@@ -18,13 +18,21 @@ Automaatio toimii käytännössä halutulla tavalla:
 
 ### Home Assistant -näkymä: mittaukset ja laitteen tila
 <p align="center">
-  <img src="HA-dashboard.png" alt="Home Assistant -dashboard" style="width:70%; max-width:700px; height:auto;">
+  <img src="HA-dashboard.png"
+       alt="Home Assistant -dashboard"
+       style="width:80%; max-width:780px; height:auto;">
   <br>
   <em>Home Assistant -dashboard: pukuhuoneen kosteus/lämpötila/paine sekä korvausilmalaitteen tila.</em>
 </p>
 
-<p align="center">
-  <img src="shelly-s.png" alt="Shelly Plug S ohjaus" style="width:55%; max-width:420px; height:auto;">
-  <br>
-  <em>Shelly Plug S toimii toimilaitteena ja kytkee korvausilmalaitteen päälle/pois automaation ohjaamana.</em>
-</p>
+<div style="display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap:16px; align-items:start;">
+  <figure style="margin:0; text-align:center;">
+    <img src="shelly-s.png" alt="Shelly Plug S" style="width:100%; height:auto; max-width:360px;">
+    <figcaption><em>Shelly Plug S toimii toimilaitteena (päälle/pois).</em></figcaption>
+  </figure>
+
+  <figure style="margin:0; text-align:center;">
+    <img src="korvausilma.png" alt="Korvausilmalaite" style="width:100%; height:auto; max-width:360px;">
+    <figcaption><em>Ohjattava korvausilmalaite.</em></figcaption>
+  </figure>
+</div>
