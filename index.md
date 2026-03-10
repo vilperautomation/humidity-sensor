@@ -37,3 +37,22 @@ Automaatio toimii käytännössä halutulla tavalla:
     <figcaption style="min-height:1.6em;"><em>Ohjattava korvausilmalaite.</em></figcaption>
   </figure>
 </div>
+
+## Toteutus lyhyesti
+
+### 1) Mittaus ja lähetys (ESP32 + BME280 → MQTT)
+ESP32 mittaa pukuhuoneen kosteuden (sekä lämpötilan/paineen) BME280-anturilla ja julkaisee arvot **samassa MQTT-topicissa JSON-muodossa** minuutin välein.
+
+<p align="center">
+  <img src="anturi.png"
+       alt="BME280-anturi"
+       style="width:70%; max-width:560px; height:auto;">
+  <br>
+  <em>BME280-anturi</em>
+</p>
+
+### 2) Vastaanotto ja logiikka (Home Assistant + Node-RED)
+Home Assistantin MQTT-broker (Mosquitto) vastaanottaa ESP32:n viestit. Node-RED-automaatio reagoi näihin MQTT-viesteihin ja tekee päätöksen korvausilmalaitteen päälle/pois-ohjauksesta kosteuden perusteella. Ohjauksessa käytetään **hystereesiä**, jotta laite ei sahaile raja-arvon ympärillä.
+
+### 3) Toimilaitteen ohjaus (Shelly Plug S)
+Node-RED ohjaa **Shelly Plug S** -laitetta päälle/pois, ja Shelly kytkee korvausilmalaitteen virran. Mittausarvot ja laitteen tila näkyvät Home Assistantin dashboardissa.
