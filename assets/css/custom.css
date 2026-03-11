@@ -1,0 +1,6 @@
+.footer.border-top.border-gray-light.mt-5.pt-3.text-right.text-gray {
+  display: none !important;
+}
+
+h1:first-of-type > a { display: none !important; }
+h1:first-of-type { display: none !important; }
