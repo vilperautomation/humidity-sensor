@@ -1,3 +1,7 @@
+<p class="back-link">
+  <a href="https://vilperautomation.github.io/">← Kaikki projektit</a>
+</p>
+
 # Korvausilmalaitteen ohjaus kosteusanturin avulla
 
 Talvipakkasilla korvausilmalaite tuo sisään kylmää ilmaa ja lisää energiankulutusta. Halusin ohjata laitetta niin, että se käy vain tarpeen mukaan, eli kun pukuhuoneen kosteus nousee suihkun aikana. Samalla tämä antoi mahdollisuuden toteuttaa mikrokontrolleri- ja sensoriprojektin, jossa mittausdata ohjaa laitetta ja toiminta on helposti seurattavissa Home Assistantissa.
@@ -63,4 +67,8 @@ Node-RED ohjaa **Shelly Plug S** -laitetta päälle/pois, ja Shelly kytkee korva
 - **Datan päivitysvalvonta:** hälytys, jos MQTT-mittausdata ei päivity odotetulla tiheydellä (esim. jos viestejä ei tule minuuttiin). Tällä huomaa nopeasti, jos mittausketju (anturi/ESP32/MQTT) on katkennut.
 - **Ulkolämpötilaehto:** ohjaus käyttöön vain pakkasjaksoilla (tai eri kynnysarvot eri vuodenaikoina).
 - **Huippuimurin ohjaus:** sama logiikka voisi ohjata myös huippuimuria, mutta tämä edellyttää asennusoikeuksia/ammattiasennusta, joten ei ole toistaiseksi ajankohtainen.
+
+<p>
+  <a href="https://vilperautomation.github.io/">← Kaikki projektit</a>
+</p>
 <link rel="stylesheet" href="assets/css/custom.css">
