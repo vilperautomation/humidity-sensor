@@ -71,4 +71,5 @@ Node-RED ohjaa **Shelly Plug S** -laitetta päälle/pois, ja Shelly kytkee korva
 <p>
   <a href="https://vilperautomation.github.io/">← Kaikki projektit</a>
 </p>
+
 <link rel="stylesheet" href="assets/css/custom.css">
