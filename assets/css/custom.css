@@ -2,8 +2,14 @@
   display: none !important;
 }
 
-h1:first-of-type > a { display: none !important; }
-h1:first-of-type { display: none !important; }
+/* Piilota repo-nimi -otsikko */
+h1:first-of-type > a {
+  display: none !important;
+}
+
+h1:first-of-type {
+  display: none !important;
+}
 
 .back-link {
   margin: 0 0 24px;
